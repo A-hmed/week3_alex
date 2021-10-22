@@ -12,7 +12,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'git Porject',
-      home: HomeScreen(),
+        home:LoginScreen()
+
     );
   }
 }
