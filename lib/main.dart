@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:week3_alex/LoginScreen.dart';
 
 void main() {
   runApp(MyApp());
@@ -10,9 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'git Porject',
-     home:Container(
-       child: Text('intial project'),
-     )
+     home:LoginScreen()
     );
   }
 }
